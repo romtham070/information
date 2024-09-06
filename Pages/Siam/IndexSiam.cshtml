@@ -1,9 +1,10 @@
 ﻿@page
-@model information.Pages.Rangsit.IndexRangsitModel
+@model information.Pages.Siam.IndexSiamModel
 @{
 }
 
-<a class="btn btn-primary btn-sm" href="/Rangsit/CreateRangsit">New item</a>
+
+<a class="btn btn-primary btn-sm" href="/Siam/CreateSiam">New item</a>
 <table class="table">
     <thread>
         <tr>
@@ -27,8 +28,8 @@
                 <td>@item.amount</td>
                 <td>@item.create_at</td>
                 <td>
-                    <a class="btn btn-primary btn-sm" href="/Rangsit/EditRangsit?itemid=@item.itemid">Edit</a>
-                    <a class="btn btn-danger btn-sm" href="/Rangsit/DeleteRangsit?itemid=@item.itemid">Delete</a>
+                    <a class="btn btn-primary btn-sm" href="/Siam/EditSiam?itemid=@item.itemid">Edit</a>
+                    <a class="btn btn-danger btn-sm" href="/Siam/DeleteSiam?itemid=@item.itemid">Delete</a>
                 </td>
             </tr>
         }
